@@ -1,5 +1,5 @@
 #!/bin/bash
-DATA_PATH=/media/data/kafka
+DATA_PATH=$(cat DATA_PATH)/kafka
 
 docker run --restart unless-stopped -d --net=host  \
 -v $DATA_PATH:/opt/kafka/default/logs \

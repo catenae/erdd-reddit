@@ -1,18 +1,13 @@
-# erdd-reddit-foundation
+# erdd-reddit-standalone
 
-In order to launch the needed frameworks in standalone mode execute the following commands:
+In order to launch/kill the frameworks and the ERDD's topologies in standalone mode:
 
-## Aerospike
+## Launch
 ```
-./start-aerospike.sh
-```
-
-## Apache Kafka
-```
-./start-kafka.sh
+./start-all.sh
 ```
 
-## MongoDB
+## Kill
 ```
-./start-mongo.sh
+./kill-all.sh
 ```

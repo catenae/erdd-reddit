@@ -1,5 +1,5 @@
 #!/bin/bash
-DATA_PATH=/media/data/aerospike
+DATA_PATH=$(cat DATA_PATH)/aerospike
 
 docker run --restart unless-stopped -d -p 3000:3000 \
 -v $DATA_PATH:/opt/aerospike/data \

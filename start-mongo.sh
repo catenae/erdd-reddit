@@ -1,5 +1,5 @@
 #!/bin/bash
-DATA_PATH=/media/data/mongo
+DATA_PATH=$(cat DATA_PATH)/mongo
 
 docker run --restart unless-stopped -d \
 -p 27017:27017 \
