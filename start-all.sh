@@ -23,6 +23,7 @@ launch MongoDB
 launched
 
 # Store Python objects
+sleep 5
 launch "Aerospike storer"
 ./storer.sh
 launched
