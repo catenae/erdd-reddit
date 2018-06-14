@@ -42,10 +42,16 @@ launch "Stats topology"
 ./stats.sh
 launched
 
-launch "Reddit Tracker Topology"
-./tracker.sh
-launched
-
 launch "Depression Classifier"
 ./classifier.sh
+./scale-classifier.sh
 launched
+
+# Wait for the Depression Classifier initialization
+sleep 10
+
+launch "Reddit Tracker Topology"
+./tracker.sh
+./scale-tracker.sh
+launched
+

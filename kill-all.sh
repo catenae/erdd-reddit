@@ -1,4 +1,5 @@
 #!/bin/bash
+DATA_PATH=$(cat DATA_PATH)/aerospike
 
 # Base frameworks
 docker rm -f aerospike kafka mongo
