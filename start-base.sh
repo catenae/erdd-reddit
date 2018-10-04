@@ -41,13 +41,3 @@ launched
 launch "Stats topology"
 ./stats.sh
 launched
-
-launch "Depression Classifier"
-./classifier.sh
-./scale-classifier.sh
-launched
-
-launch "Reddit Tracker Topology"
-./tracker.sh
-./scale-tracker.sh
-launched

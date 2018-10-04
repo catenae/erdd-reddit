@@ -1,5 +1,5 @@
 #!/bin/bash
-NUMBER=${2:-12}
+NUMBER=${2:-2}
 CPUS=${1:-0-7}
 
 for i in $(seq 1 $NUMBER); do
