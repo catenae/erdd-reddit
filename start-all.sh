@@ -9,6 +9,8 @@ function launch {
     echo "Launching $1..."
 }
 
+./update-images.sh
+
 # Base frameworks
 launch Aerospike
 ./start-aerospike.sh
